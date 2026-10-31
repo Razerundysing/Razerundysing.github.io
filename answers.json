@@ -1,0 +1,77 @@
+{
+  "Q101": {
+    "correct": "C",
+    "explanation": "Phân tử khí lí tưởng được coi như chất điểm (thể tích riêng không đáng kể) nhưng mỗi phân tử vẫn có khối lượng xác định $m_0 = M/N_A$."
+  },
+  "Q102": {
+    "correct": "C",
+    "explanation": "$t(^\\circ\\text{C}) = 293 - 273 = 20^\\circ\\text{C} \\Rightarrow t(^\\circ\\text{F}) = 1,8 \\times 20 + 32 = 68^\\circ\\text{F}$."
+  },
+  "Q103": {
+    "correct": "C",
+    "explanation": "$\\Delta T = 7,2 - (-20) = 27,2\\text{ K}$ trong $\\Delta \\tau = 120\\text{ s} \\Rightarrow 27,2 / 120 \\approx 0,227\\text{ K/s}$."
+  },
+  "Q104": {
+    "correct": "A",
+    "explanation": "Nhận công $A = +100\\text{ J}$, tỏa nhiệt $Q = -20\\text{ J} \\Rightarrow \\Delta U = A + Q = 80\\text{ J}$ (nội năng tăng 80 J)."
+  },
+  "Q105": {
+    "correct": "A",
+    "explanation": "Công khí sinh ra: $A' = p\\Delta V = 8\\cdot 10^6 \\times 0,5 = 4\\cdot 10^6\\text{ J} \\Rightarrow A = -4\\cdot 10^6\\text{ J}$. Vậy $\\Delta U = Q + A = 6\\cdot 10^6 - 4\\cdot 10^6 = 2\\cdot 10^6\\text{ J}$."
+  },
+  "Q106": {
+    "correct": "B",
+    "explanation": "$T_2 = 30 + 273 = 303\\text{ K}$. Từ $H = 1 - T_2/T_1 = 0,8 \\Rightarrow T_1 = 303 / 0,2 = 1515\\text{ K} = 1242^\\circ\\text{C}$."
+  },
+  "Q107": {
+    "correct": "B",
+    "explanation": "$Q = mc\\Delta t + mL = 10\\times 4180\\times 75 + 10\\times 2,3\\cdot 10^6 = 3135000 + 23000000 = 26135000\\text{ J} = 26135\\text{ kJ}$."
+  },
+  "Q108": {
+    "correct": "B",
+    "explanation": "Cân bằng nhiệt: $(0,128\\times 128 + 0,21\\times 4180)(21,5 - 8,4) = 0,192 \\times c_x \\times (100 - 21,5) \\Rightarrow c_x \\approx 778\\text{ J/(kg.K)} \\approx 0,78\\cdot 10^3\\text{ J/(kg.K)}$."
+  },
+  "Q201": {
+    "correct": [
+      false,
+      true,
+      false,
+      true
+    ],
+    "explanation": "a) Sai; b) Đúng (thân nhiệt người sống nằm trong khoảng này); c) Sai; d) Đúng (nước sôi 100 °C vượt quá giới hạn 42 °C làm nổ bầu nhiệt kế)."
+  },
+  "Q202": {
+    "correct": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "explanation": "Công thực hiện $A' = p\\Delta V = 3\\cdot 10^5 \\times 7\\cdot 10^{-3} = 2100\\text{ J} \\Rightarrow A = -2100\\text{ J}$. Áp dụng $Q = \\Delta U - A$ suy ra cả 4 ý đều đúng."
+  },
+  "Q203": {
+    "correct": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "explanation": "$Q_1 = m\\lambda = 6680\\text{ J}$ (Đúng); $Q_2 = mc\\Delta t = 8400\\text{ J}$ (Đúng); $Q_3 = mL = 45200\\text{ J}$ (ý c ghi 42500 J là Sai); Tổng $Q = 60280\\text{ J}$ (Đúng)."
+  },
+  "Q301": {
+    "correct": "400",
+    "explanation": "Quãng đường đi trong 1 giây là $s = 4000 \\times 0,10 = 400\\text{ m} \\Rightarrow v = 400\\text{ m/s}$."
+  },
+  "Q302": {
+    "correct": "240",
+    "explanation": "$v_0 = 100\\text{ m/s}, v = 20\\text{ m/s}$. $\\Delta U = \\frac{1}{2}m(v_0^2 - v^2) = 0,5 \\times 0,05 \\times (10000 - 400) = 240\\text{ J}$."
+  },
+  "Q303": {
+    "correct": "8",
+    "explanation": "Công thắng ma sát $A' = F_{ms}\\cdot s = 20 \\times 0,1 = 2\\text{ J} \\Rightarrow A = -2\\text{ J}$. Vậy $\\Delta U = Q + A = 10 - 2 = 8\\text{ J}$."
+  },
+  "Q304": {
+    "correct": "856",
+    "explanation": "$m_{\\text{đồng}} = 3\\text{ kg}, m_{\\text{kẽm}} = 2\\text{ kg} \\Rightarrow Q = 3\\times 210 + 2\\times 113 = 856\\text{ kJ}$."
+  }
+}

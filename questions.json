@@ -1,0 +1,158 @@
+[
+  {
+    "id": "Q101",
+    "type": "mcq",
+    "tag": "Cấu tạo chất & Chuyển thể",
+    "stem": "Câu nào sau đây nói về các phân tử khí lí tưởng là <strong>không đúng</strong>?",
+    "options": [
+      "Có thể tích riêng không đáng kể.",
+      "Có lực tương tác không đáng kể khi không va chạm.",
+      "Có khối lượng không đáng kể.",
+      "Gây áp suất lên thành bình chứa khi va chạm."
+    ]
+  },
+  {
+    "id": "Q102",
+    "type": "mcq",
+    "tag": "Thang nhiệt độ",
+    "stem": "Giá trị nhiệt độ đo được theo thang nhiệt độ Kelvin là $293\\text{ K}$. Hỏi theo thang nhiệt độ Fahrenheit nhiệt độ đó có giá trị là bao nhiêu? (Lấy $0^\\circ\\text{C} = 273\\text{ K}$)",
+    "options": [
+      "20 °F",
+      "100 °F",
+      "68 °F",
+      "261 °F"
+    ]
+  },
+  {
+    "id": "Q103",
+    "type": "mcq",
+    "tag": "Thang nhiệt độ",
+    "stem": "Tại South Dakota ngày 22/01/1943, nhiệt độ ngoài trời tăng từ $-20^\\circ\\text{C}$ lên đến $7,2^\\circ\\text{C}$ chỉ trong $2\\text{ phút}$. Độ tăng nhiệt độ trung bình trong 2 phút đó theo đơn vị $\\text{Kelvin/giây}$ là:",
+    "options": [
+      "13,6 K/s",
+      "0,136 K/s",
+      "0,227 K/s",
+      "22,7 K/s"
+    ]
+  },
+  {
+    "id": "Q104",
+    "type": "mcq",
+    "tag": "Định luật I NĐLH",
+    "stem": "Người ta thực hiện công $100\\text{ J}$ để nén khí trong một xi lanh, đồng thời khí truyền ra môi trường xung quanh nhiệt lượng $20\\text{ J}$. Kết luận nào sau đây là đúng?",
+    "options": [
+      "Nội năng của khí tăng 80 J.",
+      "Nội năng của khí tăng 120 J.",
+      "Nội năng của khí giảm 80 J.",
+      "Nội năng của khí giảm 120 J."
+    ]
+  },
+  {
+    "id": "Q105",
+    "type": "mcq",
+    "tag": "Định luật I NĐLH",
+    "stem": "Khi truyền nhiệt lượng $6\\cdot 10^6\\text{ J}$ cho khí trong một xi lanh hình trụ thì khí nở ra đẩy pit-tông làm thể tích của khí tăng thêm $0,5\\text{ m}^3$. Biết áp suất của khí là $8\\cdot 10^6\\text{ N/m}^2$ và không đổi. Độ biến thiên nội năng của khí là:",
+    "options": [
+      "2.10⁶ J",
+      "10.10⁶ J",
+      "-2.10⁶ J",
+      "4.10⁶ J"
+    ]
+  },
+  {
+    "id": "Q106",
+    "type": "mcq",
+    "tag": "Định luật I NĐLH",
+    "stem": "Một động cơ nhiệt lí tưởng có hiệu suất cực đại là $80\\%$. Biết nhiệt độ nguồn lạnh là $30^\\circ\\text{C}$ (lấy $273\\text{ K} = 0^\\circ\\text{C}$). Nhiệt độ của nguồn nóng là:",
+    "options": [
+      "1515 °C",
+      "1242 °C",
+      "1242 K",
+      "1325 K"
+    ]
+  },
+  {
+    "id": "Q107",
+    "type": "mcq",
+    "tag": "Nhiệt học & Chuyển thể",
+    "stem": "Biết nhiệt hóa hơi riêng của nước là $L = 2,3\\cdot 10^6\\text{ J/kg}$ và nhiệt dung riêng của nước là $4180\\text{ J/(kg.K)}$. Nhiệt lượng cần cung cấp cho $10\\text{ kg}$ nước ở $25^\\circ\\text{C}$ chuyển hoàn toàn thành hơi ở $100^\\circ\\text{C}$ là:",
+    "options": [
+      "18450 kJ",
+      "26135 kJ",
+      "84500 kJ",
+      "23000 kJ"
+    ]
+  },
+  {
+    "id": "Q108",
+    "type": "mcq",
+    "tag": "Nhiệt học & Chuyển thể",
+    "stem": "Một nhiệt lượng kế bằng đồng thau khối lượng $128\\text{ g}$ chứa $210\\text{ g}$ nước ở $8,4^\\circ\\text{C}$. Thả một miếng kim loại khối lượng $192\\text{ g}$ đã nung nóng tới $100^\\circ\\text{C}$ vào nhiệt lượng kế thì nhiệt độ khi cân bằng là $21,5^\\circ\\text{C}$. Biết $c_{\\text{đồng}} = 128\\text{ J/(kg.K)}$, $c_{\\text{nước}} = 4180\\text{ J/(kg.K)}$. Nhiệt dung riêng của miếng kim loại gần giá trị nào nhất?",
+    "options": [
+      "2,1.10³ J/(kg.K)",
+      "0,78.10³ J/(kg.K)",
+      "7,8.10³ J/(kg.K)",
+      "0,21.10³ J/(kg.K)"
+    ]
+  },
+  {
+    "id": "Q201",
+    "type": "tf",
+    "tag": "Thang nhiệt độ",
+    "stem": "Thông thường, nhiệt kế thủy ngân dùng để đo thân nhiệt (nhiệt kế y tế) có phạm vi đo từ $35^\\circ\\text{C}$ đến $42^\\circ\\text{C}$. Xét tính đúng/sai của các phát biểu sau:",
+    "options": [
+      "Vì đó là giới hạn tối đa trong sự dãn nở vì nhiệt của thủy ngân.",
+      "Vì thân nhiệt bình thường và khi sốt của con người nằm trong khoảng nhiệt độ này.",
+      "Vì ở nhiệt độ cao hơn 42 °C thì thể tích thủy ngân biến thiên không còn tuyến tính.",
+      "Khi dùng nhiệt kế y tế, tuyệt đối không được ngâm vào nước đang sôi để khử trùng vì sẽ làm vỡ bầu nhiệt kế."
+    ]
+  },
+  {
+    "id": "Q202",
+    "type": "tf",
+    "tag": "Định luật I NĐLH",
+    "stem": "Truyền nhiệt lượng $Q$ cho khối khí trong một xi lanh hình trụ, khí dãn nở đẩy pit-tông làm thể tích của khối khí tăng thêm $7,0\\text{ lít}$. Biết áp suất của khối khí là $3,0\\cdot 10^5\\text{ Pa}$ và không đổi trong quá trình dãn nở.",
+    "options": [
+      "Áp suất khí tác dụng lên pit-tông là 3,0.10⁵ N/m².",
+      "Độ lớn công mà khối khí thực hiện là 2,1.10³ J.",
+      "Nếu trong quá trình này nội năng của khối khí giảm đi 1100 J thì Q = 1000 J.",
+      "Nếu trong quá trình này nội năng của khối khí tăng thêm 1100 J thì Q = 3200 J."
+    ]
+  },
+  {
+    "id": "Q203",
+    "type": "tf",
+    "tag": "Nhiệt học & Chuyển thể",
+    "stem": "Một học sinh làm thí nghiệm đun nóng để làm $0,020\\text{ kg}$ nước đá (thể rắn) ở $0^\\circ\\text{C}$ chuyển hoàn toàn thành hơi nước ở $100^\\circ\\text{C}$. Cho $\\lambda = 3,34\\cdot 10^5\\text{ J/kg}$; $c = 4,20\\text{ kJ/(kg.K)}$; $L = 2,26\\cdot 10^6\\text{ J/kg}$. Bỏ qua hao phí.",
+    "options": [
+      "Nhiệt lượng cần thiết để làm nóng chảy hoàn toàn 0,020 kg nước đá tại 0 °C là 6680 J.",
+      "Nhiệt lượng cần thiết để đưa 0,020 kg nước từ 0 °C đến 100 °C là 8400 J.",
+      "Nhiệt lượng cần thiết để làm hóa hơi hoàn toàn 0,020 kg nước ở 100 °C là 42500 J.",
+      "Tổng nhiệt lượng để 0,020 kg nước đá ở 0 °C chuyển hoàn toàn thành hơi nước ở 100 °C là 60280 J."
+    ]
+  },
+  {
+    "id": "Q301",
+    "type": "short",
+    "tag": "Cấu tạo chất & Chuyển thể",
+    "stem": "Một phân tử khí lí tưởng đang chuyển động qua tâm một bình cầu có đường kính $d = 0,10\\text{ m}$. Trong mỗi giây, phân tử này va chạm vào thành bình cầu $4000$ lần. Coi tốc độ phân tử không đổi sau va chạm. Tốc độ chuyển động trung bình của phân tử bằng bao nhiêu $\\text{m/s}$?"
+  },
+  {
+    "id": "Q302",
+    "type": "short",
+    "tag": "Định luật I NĐLH",
+    "stem": "Một viên đạn chì có khối lượng $50\\text{ g}$ bay với tốc độ $v_0 = 360\\text{ km/h}$. Sau khi xuyên qua một tấm thép, tốc độ giảm xuống còn $72\\text{ km/h}$. Tính lượng nội năng tăng thêm của hệ đạn và thép theo đơn vị Jun (J)."
+  },
+  {
+    "id": "Q303",
+    "type": "short",
+    "tag": "Định luật I NĐLH",
+    "stem": "Người ta cung cấp một nhiệt lượng $Q = 10\\text{ J}$ cho một chất khí đựng trong xi lanh đặt nằm ngang. Khối khí dãn nở đẩy pit-tông đi $0,1\\text{ m}$ thắng lực ma sát có độ lớn $20\\text{ N}$. Bỏ qua áp suất ngoài. Nội năng của chất khí tăng thêm bao nhiêu Jun?"
+  },
+  {
+    "id": "Q304",
+    "type": "short",
+    "tag": "Nhiệt học & Chuyển thể",
+    "stem": "Một thỏi hợp kim được chế tạo từ $60\\%$ đồng và $40\\%$ kẽm có tổng khối lượng là $5\\text{ kg}$. Biết nhiệt nóng chảy riêng của đồng là $210\\text{ kJ/kg}$ và của kẽm là $113\\text{ kJ/kg}$. Tính tổng nhiệt lượng cần cung cấp để làm nóng chảy hoàn toàn thỏi hợp kim ở nhiệt độ nóng chảy theo đơn vị $\\text{kJ}$."
+  }
+]

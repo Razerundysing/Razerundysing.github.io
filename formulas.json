@@ -1,0 +1,58 @@
+[
+  {
+    "id": "FM01",
+    "chapter": "Chương 1: Vật lí nhiệt",
+    "name": "Chuyển đổi các thang nhiệt độ (Celsius - Kelvin - Fahrenheit)",
+    "rootFormula": "T(\\text{K}) = t(^\\circ\\text{C}) + 273,15; \\quad t(^\\circ\\text{F}) = 1,8t(^\\circ\\text{C}) + 32",
+    "variants": [
+      "t(^\\circ\\text{C}) = T(\\text{K}) - 273,15",
+      "t(^\\circ\\text{C}) = \\frac{t(^\\circ\\text{F}) - 32}{1,8}",
+      "\\Delta T(\\text{K}) = \\Delta t(^\\circ\\text{C})"
+    ],
+    "condition": "T(K) ≥ 0 K (không có độ K âm). Khi tính độ chênh lệch nhiệt độ thì 1 °C = 1 K."
+  },
+  {
+    "id": "FM02",
+    "chapter": "Chương 1: Vật lí nhiệt",
+    "name": "Định luật I Nhiệt động lực học & Công dãn nở đẳng áp",
+    "rootFormula": "\\Delta U = Q + A",
+    "variants": [
+      "A_{\\text{khí thực hiện}} = A' = -A = p\\Delta V = p(V_2 - V_1)",
+      "Q = \\Delta U - A = \\Delta U + A'"
+    ],
+    "condition": "Quy ước dấu: Q > 0 (nhận nhiệt), Q < 0 (truyền nhiệt); A > 0 (nhận công), A < 0 (sinh công). Đổi chuẩn 1 lít = 10⁻³ m³, 1 atm = 101325 Pa."
+  },
+  {
+    "id": "FM03",
+    "chapter": "Chương 1: Vật lí nhiệt",
+    "name": "Nhiệt dung riêng, Nhiệt nóng chảy riêng & Nhiệt hóa hơi riêng",
+    "rootFormula": "Q_1 = mc\\Delta t; \\quad Q_2 = m\\lambda; \\quad Q_3 = mL",
+    "variants": [
+      "c = \\frac{Q}{m\\Delta t}\\,(\\text{J/kg.K})",
+      "\\lambda = \\frac{Q}{m}\\,(\\text{J/kg}); \\quad L = \\frac{Q}{m}\\,(\\text{J/kg})"
+    ],
+    "condition": "Q_1 dùng khi thay đổi nhiệt độ trong cùng 1 thể; Q_2 dùng tại đúng nhiệt độ nóng chảy; Q_3 dùng khi hóa hơi."
+  },
+  {
+    "id": "FM04",
+    "chapter": "Chương 1: Vật lí nhiệt",
+    "name": "Hiệu suất động cơ nhiệt & Hiệu suất cực đại Carnot",
+    "rootFormula": "H = \\frac{A}{Q_1} = \\frac{Q_1 - Q_2}{Q_1}",
+    "variants": [
+      "A = Q_1 - Q_2 = \\mathcal{P} \\cdot t",
+      "H_{\\max} = 1 - \\frac{T_2}{T_1}"
+    ],
+    "condition": "T_1, T_2 bắt buộc phải đổi ra độ Kelvin (K). Q_1 là nhiệt nhận từ nguồn nóng, Q_2 là nhiệt nhả cho nguồn lạnh."
+  },
+  {
+    "id": "FM05",
+    "chapter": "Liên kết THCS - THPT",
+    "name": "Khối lượng riêng, Áp suất chất lỏng & Lực đẩy Archimedes",
+    "rootFormula": "\\rho = \\frac{m}{V}; \\quad p = p_0 + \\rho g h; \\quad F_A = \\rho_{\\text{lỏng}} g V_{\\text{chìm}}",
+    "variants": [
+      "F = p \\cdot S = (p_0 + \\rho g h)S",
+      "(p_0 + \\rho g h)V_1 = p_0 V_2"
+    ],
+    "condition": "h (m) là độ sâu tính từ mặt thoáng chất lỏng; V_chìm (m³) là phần thể tích vật chiếm chỗ trong chất lỏng."
+  }
+]

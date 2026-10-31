@@ -1,0 +1,161 @@
+[
+  {
+    "id": "TH01",
+    "chapter": "Vật lý 12",
+    "tag": "Cấu tạo chất & Chuyển thể",
+    "heading": "1. Mô hình động học phân tử & Cấu trúc Rắn - Lỏng - Khí",
+    "bullets": [
+      "Các chất được cấu tạo từ các hạt riêng biệt gọi là phân tử, nguyên tử hoặc ion.",
+      "Các phân tử chuyển động nhiệt hỗn loạn không ngừng. Nhiệt độ của vật càng cao thì tốc độ chuyển động nhiệt trung bình của các phân tử càng lớn.",
+      "Giữa các phân tử tồn tại đồng thời cả lực hút và lực đẩy phân tử.",
+      "Chất rắn kết tinh có cấu trúc mạng tinh thể tuần hoàn và có nhiệt độ nóng chảy xác định; chất rắn vô định hình không có cấu trúc tinh thể và không có nhiệt độ nóng chảy xác định."
+    ],
+    "coreFormula": "n = \\frac{m}{M} = \\frac{N}{N_A}",
+    "tree": [
+      {
+        "title": "Tổng số phân tử trong khối lượng m",
+        "formula": "N = n \\cdot N_A = \\frac{m}{M} \\cdot N_A",
+        "note": "N_A = 6,02.10^{23} mol^{-1}"
+      },
+      {
+        "title": "Khối lượng của 1 phân tử",
+        "formula": "m_0 = \\frac{M}{N_A}",
+        "note": "M là khối lượng mol (kg/mol hoặc g/mol)"
+      },
+      {
+        "title": "Thể tích thực một phân tử hình cầu",
+        "formula": "V_0 = \\frac{4}{3}\\pi r^3",
+        "note": "r là bán kính phân tử"
+      }
+    ]
+  },
+  {
+    "id": "TH02",
+    "chapter": "Vật lý 12",
+    "tag": "Thang nhiệt độ",
+    "heading": "2. Nhiệt độ, Cân bằng nhiệt & Các Thang Đo Nhiệt Độ",
+    "bullets": [
+      "Nhiệt độ cho biết trạng thái cân bằng nhiệt của các vật tiếp xúc nhau và chiều truyền nhiệt năng tự phát (từ vật có nhiệt độ cao sang vật có nhiệt độ thấp).",
+      "Khi hai vật có cùng nhiệt độ tiếp xúc nhau, không có sự truyền nhiệt năng tổng cộng giữa chúng (trạng thái cân bằng nhiệt).",
+      "Độ không tuyệt đối (0 K hay -273,15 °C): Nhiệt độ tại đó động năng chuyển động nhiệt của các phân tử bằng 0 và thế năng tương tác đạt tối thiểu.",
+      "Điểm ba của nước tinh khiết (0,01 °C hay 273,16 K): Trạng thái nước đồng thời tồn tại ở cả 3 thể rắn, lỏng và hơi."
+    ],
+    "coreFormula": "T(\\text{K}) = t(^\\circ\\text{C}) + 273,15",
+    "tree": [
+      {
+        "title": "Đổi từ Celsius sang Fahrenheit",
+        "formula": "t(^\\circ\\text{F}) = 1,8 \\cdot t(^\\circ\\text{C}) + 32",
+        "note": "Nước đá tan ở 32 °F, nước sôi ở 212 °F"
+      },
+      {
+        "title": "Độ biến thiên nhiệt độ giữa các thang",
+        "formula": "\\Delta T(\\text{K}) = \\Delta t(^\\circ\\text{C}) = \\frac{\\Delta t(^\\circ\\text{F})}{1,8}",
+        "note": "Mỗi độ chia 1 K bằng đúng 1 °C"
+      },
+      {
+        "title": "Nhiệt kế chất lỏng / điện trở / hồng ngoại",
+        "formula": "R_t = R_0(1 + \\alpha t); \\quad \\lambda_{\\max} T = 2900\\,\\mu\\text{m}\\cdot\\text{K}",
+        "note": "Ứng dụng sự dãn nở vì nhiệt, điện trở phụ thuộc nhiệt độ và bức xạ Wien"
+      }
+    ]
+  },
+  {
+    "id": "TH03",
+    "chapter": "Vật lý 12",
+    "tag": "Định luật I NĐLH",
+    "heading": "3. Nội năng & Định luật I Nhiệt động lực học",
+    "bullets": [
+      "Nội năng (U) là tổng động năng chuyển động nhiệt và thế năng tương tác của các phân tử cấu tạo nên vật. Nội năng phụ thuộc vào nhiệt độ T và thể tích V: U = f(T, V).",
+      "Có 2 cách làm thay đổi nội năng: Thực hiện công (A) và Truyền nhiệt (Q). Nhiệt lượng chỉ là số đo độ biến thiên nội năng trong quá trình truyền nhiệt.",
+      "Quy ước dấu chuẩn: Q > 0 (hệ nhận nhiệt), Q < 0 (hệ tỏa nhiệt); A > 0 (hệ nhận công), A < 0 (hệ thực hiện công / sinh công)."
+    ],
+    "coreFormula": "\\Delta U = Q + A",
+    "tree": [
+      {
+        "title": "Quá trình đẳng tích (V = const)",
+        "formula": "A = 0 \\Rightarrow \\Delta U = Q",
+        "note": "Toàn bộ nhiệt lượng truyền cho khí làm thay đổi nội năng"
+      },
+      {
+        "title": "Quá trình đẳng áp (p = const)",
+        "formula": "A_{\\text{khí sinh}} = p\\Delta V = p(V_2 - V_1)",
+        "note": "Khí dãn nở (V tăng) thì sinh công nên A = -p\\Delta V < 0"
+      },
+      {
+        "title": "Quá trình đẳng nhiệt khí lí tưởng (T = const)",
+        "formula": "\\Delta U = 0 \\Rightarrow Q = -A",
+        "note": "Nhiệt lượng khí nhận chuyển hết thành công sinh ra"
+      },
+      {
+        "title": "Hiệu suất động cơ nhiệt & Carnot",
+        "formula": "H = \\frac{A}{Q_1} = 1 - \\frac{Q_2}{Q_1} \\le 1 - \\frac{T_2}{T_1}",
+        "note": "Q_1: nhiệt nhận nguồn nóng; Q_2: nhiệt nhả nguồn lạnh"
+      }
+    ]
+  },
+  {
+    "id": "TH04",
+    "chapter": "Vật lý 12",
+    "tag": "Nhiệt học & Chuyển thể",
+    "heading": "4. Nhiệt dung riêng, Nhiệt nóng chảy riêng & Nhiệt hóa hơi riêng",
+    "bullets": [
+      "Nhiệt dung riêng c (J/kg.K): Nhiệt lượng cần truyền cho 1 kg chất để tăng nhiệt độ thêm 1 K (1 °C).",
+      "Nhiệt nóng chảy riêng \\lambda (J/kg): Nhiệt lượng cần để 1 kg chất rắn kết tinh nóng chảy hoàn toàn ở nhiệt độ nóng chảy.",
+      "Nhiệt hóa hơi riêng L (J/kg): Nhiệt lượng cần để 1 kg chất lỏng hóa hơi hoàn toàn ở nhiệt độ xác định.",
+      "Trong suốt quá trình đang nóng chảy (hoặc đang sôi), nhiệt độ của chất rắn kết tinh (hoặc chất lỏng) giữ không đổi."
+    ],
+    "coreFormula": "Q_{\\text{tổng}} = mc\\Delta t + m\\lambda + mL",
+    "tree": [
+      {
+        "title": "Phương trình cân bằng nhiệt hệ cô lập",
+        "formula": "\\sum Q_{\\text{tỏa}} = \\sum Q_{\\text{thu}}",
+        "note": "Nhiệt truyền từ các vật nóng hơn sang các vật lạnh hơn"
+      },
+      {
+        "title": "Thực hành đo nhiệt dung riêng bằng Oát kế",
+        "formula": "c = \\frac{\\overline{\\mathcal{P}}(\\tau_N - \\tau_M)}{m(t_N - t_M)}",
+        "note": "Đo công suất dòng điện và độ dốc đồ thị nhiệt độ - thời gian"
+      },
+      {
+        "title": "Thực hành đo nhiệt nóng chảy riêng & hóa hơi riêng",
+        "formula": "\\lambda = \\frac{\\overline{\\mathcal{P}}\\tau_M}{m}; \\quad L = \\frac{\\overline{\\mathcal{P}}(\\tau_Q - \\tau_P)}{m_P - m_Q}",
+        "note": "Dùng cân điện tử theo dõi độ giảm khối lượng khi nước sôi"
+      }
+    ]
+  },
+  {
+    "id": "TH05",
+    "chapter": "Vật lý 12",
+    "tag": "Áp suất & Archimedes",
+    "heading": "5. Các đại lượng \"... riêng\", Áp suất thủy tĩnh & Bài toán Bọt khí",
+    "bullets": [
+      "Khối lượng riêng \\rho = m/V (kg/m³) liên hệ với trọng lượng riêng d = \\rho.g (N/m³).",
+      "Áp suất tuyệt đối tại độ sâu h trong lòng chất lỏng bằng tổng áp suất khí quyển p_0 và áp suất cột chất lỏng \\rho.g.h.",
+      "Khi bọt khí nổi từ đáy hồ lên mặt nước, độ sâu h giảm làm áp suất giảm nên thể tích bọt khí tăng lên và lực đẩy Archimedes tăng dần."
+    ],
+    "coreFormula": "p = p_0 + \\rho g h; \\quad F_A = \\rho_{\\text{lỏng}} g V_{\\text{chìm}}",
+    "tree": [
+      {
+        "title": "Độ tăng thể tích bọt khí nổi đẳng nhiệt lên mặt nước",
+        "formula": "V_2 = V_1 \\left(1 + \\frac{\\rho g h}{p_0}\\right)",
+        "note": "Áp dụng p_1 V_1 = p_2 V_2 với p_2 = p_0"
+      },
+      {
+        "title": "Năng suất tỏa nhiệt nhiên liệu & Hiệu suất bếp/động cơ",
+        "formula": "Q_{\\text{tỏa}} = m \\cdot q; \\quad H = \\frac{Q_{\\text{ích}}}{Q_{\\text{toàn phần}}}",
+        "note": "q (J/kg) là nhiệt lượng khi đốt cháy hoàn toàn 1 kg nhiên liệu"
+      }
+    ]
+  },
+  {
+    "id": "TH91543",
+    "chapter": "Toán",
+    "tag": "Các công thức hình tròn I",
+    "heading": "Một số công thức",
+    "bullets": [
+      "- Chu vi / diện tích hình tròn"
+    ],
+    "coreFormula": "C = 2pi*r; S = pi*r^2",
+    "tree": []
+  }
+]
