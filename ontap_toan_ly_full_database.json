@@ -1,0 +1,1094 @@
+{
+  "theories_and_formulas": {
+    "theories": [
+      {
+        "id": "TH_79837",
+        "subject": "Vật Lý 12",
+        "chapter": "Chương 1: Vật Lý Nhiệt",
+        "tags": [
+          "#LyThuyetMoi"
+        ],
+        "title": "Nhiệt dung riêng từ đồ thị nhiệt độ - thời gian",
+        "summary": [
+          "Nhiệt dung riêng từ đồ thị nhiệt độ - thời gian"
+        ],
+        "shortFormula": "c = Q / (m.delta(t)) = over_line(P) * (T_n - T_m) / m * (t_n - t_m)",
+        "formulaNote": "Trong đó: overline_P là công suất trung bình của dòng điện qua dây điện trở (W); m là khối lượng chất lỏng (kg); T_n, T_m là thời điểm bắt đầu và kết thúc trên đồ thị (s); t_n, t_m là nhiệt độ tương ứng",
+        "treeNodes": []
+      },
+      {
+        "id": "TH_VL12_01",
+        "subject": "Vật Lý 12",
+        "chapter": "Chương 1: Vật Lý Nhiệt",
+        "tags": [
+          "#SuChuyenThe",
+          "#ThuyetDongHocPhanTu"
+        ],
+        "title": "1. Cấu tạo chất & Sự chuyển thể của các chất",
+        "summary": [
+          "Các chất được cấu tạo từ các hạt riêng biệt gọi là phân tử (hoặc nguyên tử). Giữa các phân tử luôn có khoảng cách.",
+          "Các phân tử chuyển động hỗn loạn không ngừng. Nhiệt độ của vật càng cao thì tốc độ chuyển động nhiệt của các phân tử càng lớn (Chuyển động Brown).",
+          "Giữa các phân tử có cả lực hút và lực đẩy (gọi chung là lực tương tác phân tử). Khoảng cách rất nhỏ thì lực đẩy mạnh hơn lực hút; khoảng cách lớn hơn thì lực hút mạnh hơn; khoảng cách rất xa thì lực tương tác không đáng kể.",
+          "Ba thể cơ bản: Thể rắn (dao động quanh vị trí cân bằng cố định, lực liên kết rất mạnh), Thể lỏng (dao động quanh vị trí cân bằng di chuyển được, có thể tích xác định nhưng hình dạng theo bình chứa), Thể khí (chuyển động hỗn loạn về mọi phía, rất dễ nén, lực tương tác rất yếu).",
+          "Trong suốt quá trình nóng chảy của chất rắn kết tinh hoặc quá trình sôi của chất lỏng ở áp suất tiêu chuẩn, nhiệt độ của vật KHÔNG THAY ĐỔI dù vẫn tiếp tục cung cấp nhiệt."
+        ],
+        "shortFormula": "n = m / M = N / N_A",
+        "formulaNote": "Liên hệ số mol (n), khối lượng (m), khối lượng mol (M) và số phân tử (N) với N_A = 6,02.10²³ mol⁻¹.",
+        "treeNodes": [
+          {
+            "branch": "Số lượng phân tử trong khối lượng m",
+            "eq": "N = n . N_A = (m / M) . N_A",
+            "condition": "Áp dụng tính số phân tử H₂O (M = 18 g/mol), O₂ (M = 32 g/mol), He (M = 4 g/mol)..."
+          },
+          {
+            "branch": "Khối lượng của 1 phân tử chất",
+            "eq": "m_0 = M / N_A",
+            "condition": "VD: 1 phân tử nước có m₀ = 18 / (6,02.10²³) ≈ 2,99.10⁻²³ g = 2,99.10⁻²⁶ kg"
+          },
+          {
+            "branch": "Nóng chảy & Đông đặc (Rắn ⇄ Lỏng)",
+            "eq": "Q = λ . m",
+            "condition": "Chất rắn kết tinh có nhiệt độ nóng chảy xác định (VD: Nước đá ở 0°C, λ = 3,34.10⁵ J/kg); chất rắn vô định hình không có nhiệt độ nóng chảy xác định."
+          },
+          {
+            "branch": "Hóa hơi & Ngưng tụ (Lỏng ⇄ Khí)",
+            "eq": "Q = L . m",
+            "condition": "Bay hơi xảy ra ở bề mặt tại mọi nhiệt độ; Sôi xảy ra ở cả bề mặt và trong lòng chất lỏng ở nhiệt độ sôi xác định (Nước ở 100°C, L ≈ 2,26.10⁶ J/kg)."
+          }
+        ]
+      },
+      {
+        "id": "TH_VL12_02",
+        "subject": "Vật Lý 12",
+        "chapter": "Chương 1: Vật Lý Nhiệt",
+        "tags": [
+          "#ThangNhietDo"
+        ],
+        "title": "2. Nhiệt độ, Cân bằng nhiệt & Các Thang Nhiệt Độ (Celsius, Kelvin, Fahrenheit)",
+        "summary": [
+          "Nhiệt độ là đại lượng vật lý cho biết mức độ nóng, lạnh của vật và cho biết chiều truyền nhiệt năng tự phát (luôn truyền từ vật có nhiệt độ cao hơn sang vật có nhiệt độ thấp hơn).",
+          "Khi hai vật có cùng nhiệt độ tiếp xúc nhau, không có sự truyền nhiệt giữa chúng → Hai vật ở trạng thái cân bằng nhiệt.",
+          "Thang Celsius (°C): Chọn mốc 0°C là nhiệt độ nước đá tinh khiết đang tan và 100°C là nhiệt độ nước tinh khiết đang sôi ở áp suất tiêu chuẩn (1 atm).",
+          "Thang nhiệt độ tuyệt đối Kelvin (K): Đơn vị đo nhiệt độ trong hệ SI. Mốc 0 K (-273,15°C) là độ không tuyệt đối (tại đó động năng chuyển động nhiệt của các phân tử bằng 0, thế năng tương tác đạt tối thiểu) và điểm ba của nước là 273,16 K (0,01°C).",
+          "Nguyên lý hoạt động của nhiệt kế thường dùng (thủy ngân, rượu, kim loại): Dựa trên sự dãn nở vì nhiệt của các chất (hoặc sự phụ thuộc điện trở theo nhiệt độ, hồng ngoại)."
+        ],
+        "shortFormula": "T(K) = t(°C) + 273  |  t(°F) = 1,8.t(°C) + 32",
+        "formulaNote": "Chuyển đổi qua lại giữa 3 thang nhiệt độ thông dụng Celsius (°C), Kelvin (K) và Fahrenheit (°F).",
+        "treeNodes": [
+          {
+            "branch": "Đổi từ độ Celsius (°C) sang Kelvin (K)",
+            "eq": "T (K) = t (°C) + 273,15  (thường lấy + 273)",
+            "condition": "Ngược lại: t (°C) = T (K) - 273. Lưu ý độ biến thiên: ΔT (K) = Δt (°C) (tăng 1°C bằng tăng 1 K)."
+          },
+          {
+            "branch": "Đổi từ độ Celsius (°C) sang Fahrenheit (°F)",
+            "eq": "t (°F) = 1,8 . t (°C) + 32",
+            "condition": "Tại 0°C ứng với 32°F; tại 100°C ứng với 212°F; thân nhiệt 37°C ứng với 98,6°F."
+          },
+          {
+            "branch": "Đổi ngược từ Fahrenheit (°F) sang Celsius (°C)",
+            "eq": "t (°C) = [ t (°F) - 32 ] / 1,8",
+            "condition": "Độ biến thiên: Δt (°F) = 1,8 . Δt (°C) (tăng 1°C ứng với tăng 1,8°F)."
+          },
+          {
+            "branch": "Đổi trực tiếp giữa Kelvin (K) và Fahrenheit (°F)",
+            "eq": "t (°F) = 1,8 . (T - 273) + 32",
+            "condition": "Dùng khi đề cho K và hỏi °F (VD: T = 293 K ⇒ t = 20°C ⇒ 68°F)."
+          }
+        ]
+      },
+      {
+        "id": "TH_VL12_03",
+        "subject": "Vật Lý 12",
+        "chapter": "Chương 1: Vật Lý Nhiệt",
+        "tags": [
+          "#NoiNang_DL1"
+        ],
+        "title": "3. Nội năng & Định luật I Nhiệt động lực học",
+        "summary": [
+          "Nội năng (U) của một vật là tổng động năng và thế năng tương tác của các phân tử cấu tạo nên vật. Đơn vị là Jun (J).",
+          "Nội năng của một vật phụ thuộc vào nhiệt độ (T) và thể tích (V) của vật: U = f(T, V). Với khí lý tưởng, nội năng chỉ phụ thuộc vào nhiệt độ.",
+          "Có 2 cách làm thay đổi nội năng: Thực hiện công (cọ xát, nén khí...) và Truyền nhiệt (đun nóng, thả vào nước nóng...).",
+          "Nhiệt lượng (Q) là số đo độ biến thiên nội năng trong quá trình truyền nhiệt (Một vật lúc nào cũng có nội năng, nhưng KHÔNG phải lúc nào cũng 'chứa' nhiệt lượng).",
+          "Định luật I Nhiệt động lực học: Độ biến thiên nội năng của hệ bằng tổng công và nhiệt lượng mà hệ nhận được."
+        ],
+        "shortFormula": "ΔU = Q + A",
+        "formulaNote": "Quy ước dấu chuẩn: Q > 0 (hệ nhận nhiệt), Q < 0 (hệ tỏa nhiệt); A > 0 (hệ nhận công / bị nén), A < 0 (hệ thực hiện/sinh công / dãn nở).",
+        "treeNodes": [
+          {
+            "branch": "Quá trình Đẳng tích (V = const, bình kín)",
+            "eq": "A = 0  ⇒  ΔU = Q",
+            "condition": "Toàn bộ nhiệt lượng truyền cho khí chỉ dùng để làm thay đổi nội năng (Đun nóng đẳng tích: Q > 0, ΔU > 0; Làm lạnh đẳng tích: Q < 0, ΔU < 0)."
+          },
+          {
+            "branch": "Quá trình Đẳng áp (p = const, xilanh pit-tông tự do)",
+            "eq": "A_khí = p . ΔV = p.(V₂ - V₁)  ⇒  ΔU = Q + A",
+            "condition": "Khi khí dãn đẳng áp (V₂ > V₁): khí thực hiện công A_khí > 0 nên trong công thức ΔU = Q + A ta lấy A = -p.(V₂ - V₁) < 0."
+          },
+          {
+            "branch": "Quá trình Đẳng nhiệt (T = const, khí lý tưởng)",
+            "eq": "ΔU = 0  ⇒  Q = -A",
+            "condition": "Toàn bộ nhiệt lượng khí nhận được chuyển hết thành công mà khí sinh ra (hoặc công nén khí chuyển hết thành nhiệt tỏa ra)."
+          },
+          {
+            "branch": "Quá trình Đoạn nhiệt (Cách nhiệt hoàn toàn)",
+            "eq": "Q = 0  ⇒  ΔU = A",
+            "condition": "Nén nhanh khí trong xilanh cách nhiệt: A > 0 ⇒ ΔU > 0 (khí nóng lên)."
+          },
+          {
+            "branch": "Biến thiên nội năng do va chạm / ma sát cơ học",
+            "eq": "ΔU = |ΔW_cơ| = W_đ1 - W_đ2  hoặc  mg(h₁ - h₂)",
+            "condition": "Áp dụng cho quả bóng rơi từ h₁ nảy lên h₂ hoặc viên đạn xuyên qua tấm thép."
+          }
+        ]
+      },
+      {
+        "id": "TH_VL12_04",
+        "subject": "Vật Lý 12",
+        "chapter": "Chương 1: Vật Lý Nhiệt",
+        "tags": [
+          "#SuChuyenThe",
+          "#NhietLuong"
+        ],
+        "title": "4. Nhiệt dung riêng, Nhiệt nóng chảy riêng, Nhiệt hóa hơi riêng & Cân bằng nhiệt",
+        "summary": [
+          "Nhiệt dung riêng (c): Nhiệt lượng cần truyền cho 1 kg chất đó để làm nhiệt độ của nó tăng thêm 1°C (hay 1 K). Đơn vị: J/(kg.K). Nước có c ≈ 4180 - 4200 J/(kg.K).",
+          "Nhiệt nóng chảy riêng (λ): Nhiệt lượng cần cung cấp để làm cho 1 kg chất rắn kết tinh nóng chảy hoàn toàn ở nhiệt độ nóng chảy. Đơn vị: J/kg.",
+          "Nhiệt hóa hơi riêng (L): Nhiệt lượng cần cung cấp để làm cho 1 kg chất lỏng hóa hơi hoàn toàn ở nhiệt độ xác định. Đơn vị: J/kg.",
+          "Phương trình cân bằng nhiệt: Trong hệ cô lập về nhiệt, tổng nhiệt lượng do các vật tỏa ra bằng tổng nhiệt lượng do các vật thu vào."
+        ],
+        "shortFormula": "Q_thu = Q_tỏa  |  Q = m.c.Δt + λ.m + L.m",
+        "formulaNote": "Cần xét kỹ từng giai đoạn tăng nhiệt độ và giai đoạn chuyển thể (nóng chảy ở 0°C, sôi ở 100°C).",
+        "treeNodes": [
+          {
+            "branch": "Làm nóng / làm nguội không chuyển thể",
+            "eq": "Q = m . c . (t₂ - t₁)",
+            "condition": "Nếu đun bằng ấm có khối lượng m_ấm, nhiệt dung riêng c_ấm: Q = (m_ấm.c_ấm + m_nước.c_nước).(t₂ - t₁)."
+          },
+          {
+            "branch": "Đun nước đá từ -t₀ (°C) thành hơi nước ở 100°C",
+            "eq": "Q_tổng = m.c_đá.(0 - t₀) + m.λ + m.c_nước.(100 - 0) + m.L",
+            "condition": "Gồm 4 giai đoạn liên tiếp: Tăng nhiệt nước đá lên 0°C → Nóng chảy ở 0°C → Đun nước từ 0°C lên 100°C → Hóa hơi ở 100°C."
+          },
+          {
+            "branch": "Phương trình cân bằng nhiệt khi pha trộn 2 chất",
+            "eq": "m₁.c₁.(t₁ - t_cb) = m₂.c₂.(t_cb - t₂)",
+            "condition": "Với t₁ > t_cb > t₂. Từ đó suy ra nhiệt độ cân bằng: t_cb = (m₁c₁t₁ + m₂c₂t₂) / (m₁c₁ + m₂c₂)."
+          },
+          {
+            "branch": "Thí nghiệm đo bằng bếp điện / ấm siêu tốc",
+            "eq": "Q = P . τ = U . I . τ",
+            "condition": "P (W) là công suất điện, τ (s) là thời gian đun. Nếu hiệu suất bếp là H thì Q_ích = H . P . τ."
+          }
+        ]
+      },
+      {
+        "id": "TH_VL12_05",
+        "subject": "Vật Lý 12",
+        "chapter": "Chương 1: Vật Lý Nhiệt",
+        "tags": [
+          "#DongCoNhiet"
+        ],
+        "title": "5. Động cơ nhiệt & Hiệu suất động cơ nhiệt",
+        "summary": [
+          "Động cơ nhiệt là thiết bị chuyển hóa một phần nhiệt lượng nhận được từ nguồn nóng thành công cơ học.",
+          "Cấu tạo gồm 3 bộ phận cơ bản: Nguồn nóng (cung cấp nhiệt lượng Q₁ ở nhiệt độ T₁), Bộ phận phát động (tác nhân nhận nhiệt và sinh công A), Nguồn lạnh (nhận nhiệt lượng tỏa ra Q₂ ở nhiệt độ T₂).",
+          "Theo định luật bảo toàn năng lượng trong 1 chu trình (ΔU = 0): Q₁ = A + Q₂."
+        ],
+        "shortFormula": "H = A / Q₁ = (Q₁ - Q₂) / Q₁",
+        "formulaNote": "Hiệu suất động cơ nhiệt luôn nhỏ hơn 1 (H < 100%).",
+        "treeNodes": [
+          {
+            "branch": "Công cơ học thực hiện trong một chu trình",
+            "eq": "A = Q₁ - Q₂ = H . Q₁",
+            "condition": "Nếu cho A và Q₂ thì nhiệt lượng nhận từ nguồn nóng là Q₁ = A + Q₂ ⇒ H = A / (A + Q₂)."
+          },
+          {
+            "branch": "Liên hệ với công suất động cơ (P) và thời gian (t)",
+            "eq": "A = P . t  ⇒  Q₁ = (P . t) / H",
+            "condition": "Nhiệt lượng tỏa ra cho nguồn lạnh trong thời gian t là: Q₂ = Q₁ - A = A . (1/H - 1)."
+          },
+          {
+            "branch": "Động cơ dùng nhiên liệu (xăng, dầu) có năng suất tỏa nhiệt q",
+            "eq": "Q₁ = m_nl . q = (ρ . V) . q",
+            "condition": "Với ρ (kg/lít) là khối lượng riêng, V (lít) là thể tích xăng tiêu thụ, q (J/kg) là năng suất tỏa nhiệt."
+          },
+          {
+            "branch": "Hiệu suất cực đại của động cơ nhiệt lý tưởng (Carnot)",
+            "eq": "H_max = (T₁ - T₂) / T₁ = 1 - T₂ / T₁",
+            "condition": "BẮT BUỘC đổi T₁, T₂ ra độ Kelvin (K): T = t(°C) + 273."
+          }
+        ]
+      },
+      {
+        "id": "TH_TOAN12_01",
+        "subject": "Toán 12",
+        "chapter": "Chương 1: Ứng dụng đạo hàm khảo sát hàm số",
+        "tags": [
+          "#Toan12_HamSo"
+        ],
+        "title": "6. [Toán 12] Tính đơn điệu, Cực trị & Giá trị lớn nhất - nhỏ nhất của hàm số",
+        "summary": [
+          "Cho hàm số y = f(x) có đạo hàm trên khoảng K: Nếu f'(x) > 0 ∀x ∈ K thì hàm số đồng biến trên K; nếu f'(x) < 0 ∀x ∈ K thì hàm số nghịch biến trên K.",
+          "Điểm cực trị: Nếu f'(x) đổi dấu từ (+) sang (-) khi qua x₀ thì x₀ là điểm cực đại; đổi dấu từ (-) sang (+) thì x₀ là điểm cực tiểu.",
+          "Ứng dụng trực tiếp trong bài toán Vật Lý: Tìm tốc độ cực đại, công suất cực đại hoặc cực trị hàm trạng thái."
+        ],
+        "shortFormula": "y' = f'(x) = 0  |  v(t) = s'(t) ; a(t) = v'(t)",
+        "formulaNote": "Mối liên hệ mật thiết giữa đạo hàm, tích phân trong Toán 12 và các bài toán Vật Lý.",
+        "treeNodes": [
+          {
+            "branch": "Điều kiện hàm bậc ba y = ax³ + bx² + cx + d đơn điệu trên R",
+            "eq": "Δ' = b² - 3ac ≤ 0",
+            "condition": "Đồng biến trên R khi a > 0 và b² - 3ac ≤ 0; Nghịch biến trên R khi a < 0 và b² - 3ac ≤ 0."
+          },
+          {
+            "branch": "Đạo hàm hàm phân thức bậc nhất trên bậc nhất",
+            "eq": "y = (ax + b)/(cx + d)  ⇒  y' = (ad - bc) / (cx + d)²",
+            "condition": "Hàm số luôn đồng biến (ad - bc > 0) hoặc nghịch biến (ad - bc < 0) trên từng khoảng xác định."
+          }
+        ]
+      }
+    ],
+    "formulas": [
+      {
+        "id": "FM_01",
+        "chapter": "Chương 1: Thang nhiệt độ & Nhiệt kế",
+        "name": "Chuyển đổi Thang nhiệt độ Celsius - Kelvin - Fahrenheit",
+        "baseFormula": "T(K) = t(°C) + 273   |   t(°F) = 1,8.t(°C) + 32",
+        "derivedFormulas": [
+          "t(°C) = T(K) - 273 (chính xác: T - 273,15)",
+          "t(°C) = [ t(°F) - 32 ] / 1,8",
+          "ΔT(K) = Δt(°C)  (Độ tăng/giảm nhiệt độ theo K và °C là bằng nhau)",
+          "Δt(°F) = 1,8 . Δt(°C)"
+        ],
+        "conditions": "Áp dụng cho mọi bài toán đổi đơn vị nhiệt độ. Chú ý phân biệt giữa 'nhiệt độ t' và 'độ biến thiên nhiệt độ Δt' (VD: giảm 50°C thì trong thang Kelvin cũng giảm đúng 50 K)."
+      },
+      {
+        "id": "FM_02",
+        "chapter": "Chương 1: Nội năng & Định luật I NĐLH",
+        "name": "Hệ thức Định luật I Nhiệt động lực học",
+        "baseFormula": "ΔU = Q + A",
+        "derivedFormulas": [
+          "Q = ΔU - A",
+          "A = ΔU - Q",
+          "Đẳng tích (V = const): A = 0 ⇒ ΔU = Q",
+          "Đẳng nhiệt (T = const): ΔU = 0 ⇒ Q = -A"
+        ],
+        "conditions": "Quy ước dấu: Q > 0 (hệ nhận nhiệt), Q < 0 (hệ truyền/tỏa nhiệt); A > 0 (hệ nhận công - bị nén), A < 0 (hệ thực hiện/sinh công - dãn nở). Nếu đề hỏi 'nhiệt lượng truyền cho khí' trong công thức có A_khí sinh ra thì Q = ΔU + A_khí."
+      },
+      {
+        "id": "FM_03",
+        "chapter": "Chương 1: Nội năng & Định luật I NĐLH",
+        "name": "Công của chất khí trong quá trình đẳng áp & có ma sát",
+        "baseFormula": "A_khí = p . ΔV = p . (V₂ - V₁)",
+        "derivedFormulas": [
+          "V₂ - V₁ = (n.R/p).(T₂ - T₁) = (V₁ / T₁).(T₂ - T₁) ⇒ A_khí = p.V₁.(T₂ - T₁)/T₁",
+          "Khi đẩy pit-tông đi đoạn s thắng lực ma sát F_ms: A_cản = F_ms . s",
+          "Trong hệ thức ΔU = Q + A: lấy A = -A_khí = -p.(V₂ - V₁) khi khí nở ra"
+        ],
+        "conditions": "Áp dụng khi áp suất p không đổi (Pa = N/m²), thể tích V bắt buộc đổi ra m³ (1 lít = 1 dm³ = 10⁻³ m³; 1 atm ≈ 1,013.10⁵ Pa). Nhiệt độ T₁, T₂ phải đổi ra Kelvin (K)."
+      },
+      {
+        "id": "FM_04",
+        "chapter": "Chương 1: Động cơ nhiệt & Hiệu suất",
+        "name": "Hiệu suất của động cơ nhiệt thực tế & lý tưởng",
+        "baseFormula": "H = A / Q₁ = (Q₁ - Q₂) / Q₁",
+        "derivedFormulas": [
+          "Q₁ = A + Q₂  (Bảo toàn năng lượng trong 1 chu trình)",
+          "A = H . Q₁  ;  Q₂ = Q₁ - A = A . (1 - H) / H",
+          "H_max = (T₁ - T₂) / T₁  ⇒  T₁ = T₂ / (1 - H_max)"
+        ],
+        "conditions": "Q₁ là nhiệt lượng tác nhân nhận từ nguồn nóng, Q₂ là nhiệt lượng tỏa cho nguồn lạnh, A là công cơ học thực hiện. Với hiệu suất cực đại H_max của động cơ lý tưởng, T₁ và T₂ BẮT BUỘC tính bằng Kelvin (K)."
+      },
+      {
+        "id": "FM_05",
+        "chapter": "Chương 1: Nhiệt lượng & Sự chuyển thể",
+        "name": "Nhiệt lượng thu vào / tỏa ra, Nóng chảy & Hóa hơi",
+        "baseFormula": "Q_Δt = m.c.Δt   |   Q_nc = λ.m   |   Q_hh = L.m",
+        "derivedFormulas": [
+          "c = Q / (m.Δt)  [Đơn vị: J/(kg.K)]",
+          "λ = Q_nc / m  [Đơn vị: J/kg]",
+          "L = Q_hh / m  [Đơn vị: J/kg]",
+          "Phương trình cân bằng nhiệt: ∑Q_tỏa = ∑Q_thu"
+        ],
+        "conditions": "Q = mcΔt áp dụng khi chất tăng/giảm nhiệt độ mà chưa chuyển thể. Q = λm chỉ áp dụng tại đúng nhiệt độ nóng chảy; Q = Lm áp dụng tại nhiệt độ hóa hơi xác định."
+      },
+      {
+        "id": "FM_06",
+        "chapter": "Chương 1: Thuyết động học phân tử",
+        "name": "Số phân tử, Khối lượng phân tử & Tốc độ va chạm",
+        "baseFormula": "N = (m / M) . N_A   |   v = s / t = (n_va_chạm . d) / t",
+        "derivedFormulas": [
+          "m_phân_tử = M / N_A",
+          "Nếu bình có khối lượng riêng ρ và thể tích V: m = ρ.V ⇒ N = (ρ.V / M).N_A",
+          "Quãng đường phân tử đi qua tâm bình cầu đường kính d sau K lần va chạm: S = K . d"
+        ],
+        "conditions": "M và m phải cùng đơn vị khối lượng (cùng bằng gam hoặc cùng bằng kg). N_A = 6,02.10²³ mol⁻¹."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "Q_MCQ_01",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "mcq",
+      "content": "Đổi đơn vị đo: Nhiệt độ 39°C tương ứng với bao nhiêu °F trong thang nhiệt độ Fahrenheit?",
+      "options": {
+        "A": "39 °F",
+        "B": "212 °F",
+        "C": "102,2 °F",
+        "D": "32 °F"
+      }
+    },
+    {
+      "id": "Q_MCQ_02",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "mcq",
+      "content": "Đổi đơn vị đo: Nhiệt độ 203°F tương ứng với bao nhiêu °C trong thang nhiệt độ Celsius?",
+      "options": {
+        "A": "99 °C",
+        "B": "90 °C",
+        "C": "95 °C",
+        "D": "203 °C"
+      }
+    },
+    {
+      "id": "Q_MCQ_03",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "mcq",
+      "content": "Thao tác nào sau đây CHƯA chính xác khi dùng nhiệt kế thủy ngân để đo nhiệt độ cơ thể?",
+      "options": {
+        "A": "Vẩy mạnh nhiệt kế trước khi đo để cột thủy ngân tụt xuống.",
+        "B": "Dùng tay nắm chặt bầu nhiệt kế một lúc rồi mới đo.",
+        "C": "Lau sạch thân và bầu nhiệt kế trước khi sử dụng.",
+        "D": "Khi vẩy cần cẩn thận không để nhiệt kế va chạm mạnh gây vỡ."
+      }
+    },
+    {
+      "id": "Q_MCQ_04",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "mcq",
+      "content": "Khi nhúng một nhiệt kế rượu vào nước nóng, mực rượu trong ống nhiệt kế dâng lên vì:",
+      "options": {
+        "A": "ống nhiệt kế dài ra.",
+        "B": "ống nhiệt kế ngắn lại.",
+        "C": "cả ống nhiệt kế và rượu trong ống đều nở ra nhưng rượu nở vì nhiệt nhiều hơn thủy tinh.",
+        "D": "cả ống nhiệt kế và rượu trong ống đều nở ra nhưng ống nhiệt kế nở nhiều hơn."
+      }
+    },
+    {
+      "id": "Q_MCQ_05",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "mcq",
+      "content": "Trong thang nhiệt độ Kelvin, nhiệt độ mà tại đó nước tinh khiết có thể tồn tại đồng thời ở cả ba thể rắn, lỏng và hơi (điểm ba của nước) là:",
+      "options": {
+        "A": "0 K",
+        "B": "273,16 K",
+        "C": "100 K",
+        "D": "373,15 K"
+      }
+    },
+    {
+      "id": "Q_MCQ_06",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "mcq",
+      "content": "Thế giới từng ghi nhận sự thay đổi nhiệt độ rất lớn diễn ra ở South Dakota vào ngày 22/01/1943. Lúc 7h30 sáng, nhiệt độ ngoài trời là -20°C. Hai phút sau, nhiệt độ ngoài trời tăng lên đến 7,2°C. Độ tăng nhiệt độ trung bình trong 2 phút đó theo đơn vị Kelvin/giây là:",
+      "options": {
+        "A": "13,6 Kelvin/giây",
+        "B": "0,136 Kelvin/giây",
+        "C": "0,227 Kelvin/giây",
+        "D": "22,7 Kelvin/giây"
+      }
+    },
+    {
+      "id": "Q_MCQ_07",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thuyết động học phân tử",
+      "tags": [
+        "#ThuyetDongHocPhanTu"
+      ],
+      "type": "mcq",
+      "content": "Biết khối lượng của một mol nước (H₂O) là 18 g và 1 mol có N_A = 6,02.10²³ phân tử. Số phân tử có trong 2 gam nước là:",
+      "options": {
+        "A": "3,24.10²⁴ phân tử",
+        "B": "6,68.10²² phân tử",
+        "C": "1,8.10²⁰ phân tử",
+        "D": "4.10²¹ phân tử"
+      }
+    },
+    {
+      "id": "Q_MCQ_08",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thuyết động học phân tử",
+      "tags": [
+        "#ThuyetDongHocPhanTu"
+      ],
+      "type": "mcq",
+      "content": "Ở nhiệt độ 0°C và áp suất 760 mmHg, 22,4 lít khí ôxi có 6,02.10²³ phân tử ôxi. Coi mỗi phân tử ôxi như một quả cầu có bán kính r = 10⁻¹⁰ m. Thể tích riêng của toàn bộ các phân tử khí ôxi nhỏ hơn thể tích bình chứa khoảng bao nhiêu lần?",
+      "options": {
+        "A": "8,9.10³ lần",
+        "B": "8,9 lần",
+        "C": "22,4.10³ lần",
+        "D": "22,4.10²³ lần"
+      }
+    },
+    {
+      "id": "Q_MCQ_09",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nội năng & ĐL I NĐLH",
+      "tags": [
+        "#NoiNang_DL1"
+      ],
+      "type": "mcq",
+      "content": "Chọn phát biểu SAI khi nói về nội năng và nhiệt lượng?",
+      "options": {
+        "A": "Đơn vị của nhiệt lượng cũng là đơn vị của nội năng (Jun).",
+        "B": "Một vật lúc nào cũng có nội năng, do đó lúc nào cũng có nhiệt lượng.",
+        "C": "Nhiệt lượng là số đo độ biến thiên nội năng của vật trong quá trình truyền nhiệt.",
+        "D": "Nội năng của một vật phụ thuộc vào nhiệt độ và thể tích của vật: U = f(T, V)."
+      }
+    },
+    {
+      "id": "Q_MCQ_10",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nội năng & ĐL I NĐLH",
+      "tags": [
+        "#NoiNang_DL1"
+      ],
+      "type": "mcq",
+      "content": "Người ta thực hiện công 100 J để nén khí trong một xilanh và khí truyền ra môi trường xung quanh một nhiệt lượng 20 J. Kết luận nào sau đây là đúng?",
+      "options": {
+        "A": "Nội năng của khí tăng 80 J.",
+        "B": "Nội năng của khí tăng 120 J.",
+        "C": "Nội năng của khí giảm 80 J.",
+        "D": "Nội năng của khí giảm 120 J."
+      }
+    },
+    {
+      "id": "Q_MCQ_11",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nội năng & ĐL I NĐLH",
+      "tags": [
+        "#NoiNang_DL1"
+      ],
+      "type": "mcq",
+      "content": "Người ta cung cấp một nhiệt lượng 1,5 J cho chất khí đựng trong một xilanh đặt nằm ngang. Khí nở ra đẩy pit-tông đi một đoạn 5 cm. Biết lực ma sát giữa pit-tông và xilanh có độ lớn 20 N. Độ biến thiên nội năng của khí là:",
+      "options": {
+        "A": "ΔU = 0,5 J",
+        "B": "ΔU = 2,5 J",
+        "C": "ΔU = -0,5 J",
+        "D": "ΔU = -2,5 J"
+      }
+    },
+    {
+      "id": "Q_MCQ_12",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nội năng & ĐL I NĐLH",
+      "tags": [
+        "#NoiNang_DL1"
+      ],
+      "type": "mcq",
+      "content": "Khi truyền nhiệt lượng 6.10⁶ J cho khí trong một xilanh hình trụ thì khí nở ra đẩy pit-tông lên làm thể tích của khí tăng thêm 0,50 m³. Biết áp suất của khí là 8.10⁶ N/m² và coi áp suất này không đổi trong quá trình khí thực hiện công. Độ biến thiên nội năng của khí là:",
+      "options": {
+        "A": "2.10⁶ J",
+        "B": "10.10⁶ J",
+        "C": "-2.10⁶ J",
+        "D": "3,5.10⁶ J"
+      }
+    },
+    {
+      "id": "Q_MCQ_13",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nội năng & ĐL I NĐLH",
+      "tags": [
+        "#NoiNang_DL1"
+      ],
+      "type": "mcq",
+      "content": "Hệ thức của nguyên lý I Nhiệt động lực học có dạng ΔU = Q ứng với quá trình nào vẽ trên đồ thị (p - T) ở hình bên?",
+      "svg": "<svg viewBox=\"0 0 240 160\" class=\"w-56 h-36 mx-auto bg-white rounded-lg border border-slate-200 p-2\">\n          <defs><marker id=\"arr\" markerWidth=\"6\" markerHeight=\"6\" refX=\"4\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#0f172a\"/></marker></defs>\n          <line x1=\"30\" y1=\"135\" x2=\"215\" y2=\"135\" stroke=\"#0f172a\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/>\n          <line x1=\"30\" y1=\"135\" x2=\"30\" y2=\"15\" stroke=\"#0f172a\" stroke-width=\"1.8\" marker-end=\"url(#arr)\"/>\n          <text x=\"218\" y=\"148\" font-size=\"12\" font-weight=\"bold\">T</text>\n          <text x=\"15\" y=\"22\" font-size=\"12\" font-weight=\"bold\">p</text>\n          <text x=\"18\" y=\"148\" font-size=\"11\">O</text>\n          <line x1=\"30\" y1=\"135\" x2=\"120\" y2=\"45\" stroke=\"#64748b\" stroke-dasharray=\"4,3\" stroke-width=\"1.4\"/>\n          <polyline points=\"85,80 120,45 185,45 185,80 85,80\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.2\"/>\n          <circle cx=\"120\" cy=\"45\" r=\"3\" fill=\"#1d4ed8\"/><text x=\"115\" y=\"37\" font-size=\"11\" font-weight=\"bold\">1</text>\n          <circle cx=\"185\" cy=\"45\" r=\"3\" fill=\"#1d4ed8\"/><text x=\"188\" y=\"37\" font-size=\"11\" font-weight=\"bold\">2</text>\n          <circle cx=\"185\" cy=\"80\" r=\"3\" fill=\"#1d4ed8\"/><text x=\"190\" y=\"92\" font-size=\"11\" font-weight=\"bold\">3</text>\n          <circle cx=\"85\" cy=\"80\" r=\"3\" fill=\"#1d4ed8\"/><text x=\"72\" y=\"94\" font-size=\"11\" font-weight=\"bold\">4</text>\n        </svg>",
+      "options": {
+        "A": "Quá trình 1 → 2",
+        "B": "Quá trình 2 → 3",
+        "C": "Quá trình 3 → 4",
+        "D": "Quá trình 4 → 1"
+      }
+    },
+    {
+      "id": "Q_MCQ_14",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nội năng & ĐL I NĐLH",
+      "tags": [
+        "#NoiNang_DL1"
+      ],
+      "type": "mcq",
+      "content": "Một quả bóng khối lượng 200 g rơi từ độ cao 15 m xuống sân và nảy lên được 10 m. Lấy g = 10 m/s². Độ biến thiên nội năng của quả bóng, mặt sân và không khí bằng:",
+      "options": {
+        "A": "10 J",
+        "B": "20 J",
+        "C": "15 J",
+        "D": "25 J"
+      }
+    },
+    {
+      "id": "Q_MCQ_15",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Động cơ nhiệt",
+      "tags": [
+        "#DongCoNhiet"
+      ],
+      "type": "mcq",
+      "content": "Trong một chu trình của động cơ nhiệt lý tưởng, chất khí thực hiện một công bằng 2.10³ J và truyền cho nguồn lạnh một nhiệt lượng bằng 6.10³ J. Hiệu suất của động cơ đó bằng:",
+      "options": {
+        "A": "33%",
+        "B": "80%",
+        "C": "65%",
+        "D": "25%"
+      }
+    },
+    {
+      "id": "Q_MCQ_16",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Động cơ nhiệt",
+      "tags": [
+        "#DongCoNhiet"
+      ],
+      "type": "mcq",
+      "content": "Hiệu suất của một động cơ nhiệt là 40%, nhiệt lượng nguồn nóng cung cấp là 800 J. Công cơ học mà động cơ nhiệt thực hiện là:",
+      "options": {
+        "A": "2 kJ",
+        "B": "320 J",
+        "C": "200 kJ",
+        "D": "230 J"
+      }
+    },
+    {
+      "id": "Q_MCQ_17",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Động cơ nhiệt",
+      "tags": [
+        "#DongCoNhiet"
+      ],
+      "type": "mcq",
+      "content": "Một động cơ nhiệt có hiệu suất cực đại là 80%. Biết nhiệt độ nguồn lạnh là 30°C (lấy T = t + 273). Nhiệt độ của nguồn nóng là:",
+      "options": {
+        "A": "1515 °C",
+        "B": "1242 °C",
+        "C": "1242 K",
+        "D": "1325 K"
+      }
+    },
+    {
+      "id": "Q_MCQ_18",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nhiệt lượng & Sự chuyển thể",
+      "tags": [
+        "#SuChuyenThe",
+        "#NhietLuong"
+      ],
+      "type": "mcq",
+      "content": "Tính nhiệt lượng cần cung cấp cho 10 kg nước ở 25°C chuyển hoàn toàn thành hơi ở 100°C. Cho biết nhiệt dung riêng của nước là 4180 J/(kg.K) và nhiệt hóa hơi riêng của nước là 2,3.10⁶ J/kg.",
+      "options": {
+        "A": "18450 kJ",
+        "B": "26135 kJ",
+        "C": "84500 kJ",
+        "D": "804500 kJ"
+      }
+    },
+    {
+      "id": "Q_MCQ_19",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nhiệt lượng & Sự chuyển thể",
+      "tags": [
+        "#NhietLuong"
+      ],
+      "type": "mcq",
+      "content": "Một ấm nước bằng nhôm có m = 400 g, chứa 3 lít nước đun trên bếp. Khi nhận được nhiệt lượng 740 kJ thì ấm đạt đến nhiệt độ 80°C. Hỏi nhiệt độ ban đầu của ấm nước là bao nhiêu? Biết c_Al = 880 J/(kg.K), c_H2O = 4190 J/(kg.K).",
+      "options": {
+        "A": "8,15 °C",
+        "B": "8,15 K",
+        "C": "22,7 °C",
+        "D": "22,7 K"
+      }
+    },
+    {
+      "id": "Q_MCQ_20",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Sự chuyển thể",
+      "tags": [
+        "#SuChuyenThe"
+      ],
+      "type": "mcq",
+      "content": "Cho nhiệt độ nóng chảy của một số chất như bảng: Thép (1300°C), Đồng (1083°C), Chì (327°C), Kẽm (420°C). Khi thả một thỏi thép và một thỏi kẽm vào đồng đang nóng chảy (1083°C) thì thỏi nào nóng chảy theo đồng?",
+      "options": {
+        "A": "Thỏi thép nóng chảy, thỏi kẽm không nóng chảy.",
+        "B": "Cả hai thỏi đều nóng chảy theo đồng.",
+        "C": "Cả hai thỏi đều không bị nóng chảy theo đồng.",
+        "D": "Chỉ có thỏi kẽm bị nóng chảy, còn thỏi thép không nóng chảy."
+      }
+    },
+    {
+      "id": "Q_TF_01",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "tf",
+      "content": "Thông thường, nhiệt kế thủy ngân dùng trong y tế để đo thân nhiệt có phạm vi đo từ 35°C đến 42°C và có một chỗ thắt nhỏ gần bầu thủy ngân. Xét tính đúng, sai của các phát biểu sau:",
+      "statements": {
+        "a": "Giới hạn đo từ 35°C đến 42°C là vì đó là giới hạn tối đa trong sự dãn nở vì nhiệt của thủy ngân.",
+        "b": "Giới hạn đo từ 35°C đến 42°C được chọn vì thân nhiệt của người sống bình thường và khi bị sốt nằm trong khoảng này.",
+        "c": "Khi mượn nhiệt kế y tế của người khác, ta nên nhúng ngập nhiệt kế vào nước đang sôi (100°C) để sát trùng.",
+        "d": "Không được cầm tay nắm chặt vào bầu nhiệt kế khi đọc kết quả vì nhiệt độ tay người sẽ làm sai lệch kết quả đo."
+      }
+    },
+    {
+      "id": "Q_TF_02",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "tf",
+      "content": "Bảng giới hạn đo của các loại nhiệt kế thông dụng được cho như sau: Nhiệt kế Thủy ngân (-10°C đến 110°C); Nhiệt kế Rượu (-30°C đến 60°C); Nhiệt kế Kim loại (0°C đến 400°C); Nhiệt kế Y tế (34°C đến 42°C). Xét tính đúng, sai của các phát biểu dưới đây:",
+      "statements": {
+        "a": "Dùng nhiệt kế kim loại để đo nhiệt độ của bàn là đang nóng khi sử dụng là phù hợp.",
+        "b": "Dùng nhiệt kế y tế để đo nhiệt độ của cơ thể người.",
+        "c": "Dùng nhiệt kế thủy ngân (giới hạn đến 110°C) có thể đo được nhiệt độ của nước đang sôi ở 1 atm.",
+        "d": "Dùng nhiệt kế rượu (-30°C đến 60°C) để đo nhiệt độ của nước đang sôi (100°C)."
+      }
+    },
+    {
+      "id": "Q_TF_03",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nội năng & ĐL I NĐLH",
+      "tags": [
+        "#NoiNang_DL1"
+      ],
+      "type": "tf",
+      "content": "Một quả bóng có khối lượng m = 100 g rơi từ độ cao 10 m xuống sân và nảy lên được 7 m. Lấy g = 9,8 m/s². Xét tính đúng, sai của các nhận định sau:",
+      "statements": {
+        "a": "Độ biến thiên nội năng của hệ (quả bóng, mặt sân và không khí) tuân theo định luật bảo toàn và chuyển hóa năng lượng.",
+        "b": "Quả bóng không thể nảy lên tới độ cao ban đầu (10 m) là do một phần cơ năng đã chuyển hóa thành nội năng của bóng, mặt sân và không khí.",
+        "c": "Độ biến thiên nội năng của quả bóng, mặt sân và không khí trong quá trình trên là 2,94 J.",
+        "d": "Không thể tính được độ biến thiên nội năng của hệ vì không biết nhiệt dung riêng của bóng."
+      }
+    },
+    {
+      "id": "Q_TF_04",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nội năng & ĐL I NĐLH",
+      "tags": [
+        "#NoiNang_DL1"
+      ],
+      "type": "tf",
+      "content": "Truyền nhiệt lượng Q cho khối khí trong một xilanh hình trụ thì khí dãn nở đẩy pit-tông làm thể tích của khối khí tăng thêm 7,0 lít. Biết áp suất của khối khí là 3,0.10⁵ Pa và không đổi trong quá trình khí dãn nở. Xét tính đúng, sai của các phát biểu sau:",
+      "statements": {
+        "a": "Áp suất của khí tác dụng lên pit-tông là 3,0.10⁵ N/m².",
+        "b": "Công mà khối khí thực hiện được trong quá trình dãn nở đẳng áp là 2100 J.",
+        "c": "Nếu trong quá trình này nội năng của khối khí giảm đi 1100 J (ΔU = -1100 J) thì nhiệt lượng khí nhận được là Q = 1000 J.",
+        "d": "Nếu trong quá trình này nội năng của khối khí tăng thêm 1100 J (ΔU = +1100 J) thì nhiệt lượng truyền cho khí là Q = 3200 J."
+      }
+    },
+    {
+      "id": "Q_TF_05",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Sự chuyển thể & Nhiệt lượng",
+      "tags": [
+        "#SuChuyenThe",
+        "#NhietLuong"
+      ],
+      "type": "tf",
+      "content": "Một học sinh làm thí nghiệm đun nóng để làm 0,020 kg nước đá (thể rắn) ở 0°C chuyển hoàn toàn thành hơi nước ở 100°C. Cho nhiệt nóng chảy riêng của nước đá ở 0°C là λ = 3,34.10⁵ J/kg; nhiệt dung riêng của nước là c = 4,20 kJ/(kg.K); nhiệt hóa hơi riêng của nước ở 100°C là L = 2,26.10⁶ J/kg. Bỏ qua hao phí tỏa nhiệt ra môi trường.",
+      "statements": {
+        "a": "Nhiệt lượng cần thiết để làm nóng chảy hoàn toàn 0,020 kg nước đá tại 0°C là 6680 J.",
+        "b": "Nhiệt lượng cần thiết để đun 0,020 kg nước từ 0°C đến 100°C là 8400 J.",
+        "c": "Nhiệt lượng cần thiết để làm hóa hơi hoàn toàn 0,020 kg nước ở 100°C là 42500 J.",
+        "d": "Tổng nhiệt lượng để 0,020 kg nước đá ở 0°C chuyển hoàn toàn thành hơi nước ở 100°C là 60280 J."
+      }
+    },
+    {
+      "id": "Q_TF_06",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thuyết động học phân tử",
+      "tags": [
+        "#ThuyetDongHocPhanTu"
+      ],
+      "type": "tf",
+      "content": "Xét một khối khí lý tưởng chứa trong một bình kín có thể tích không đổi. Khi đun nóng làm nhiệt độ của khối khí tăng lên thì áp suất khí trong bình tăng lên. Xét tính đúng, sai của các giải thích sau:",
+      "statements": {
+        "a": "Số lượng phân tử khí trong bình tăng lên nên số va chạm vào thành bình tăng lên.",
+        "b": "Nhiệt độ tăng làm các phân tử khí chuyển động nhiệt nhanh hơn, va chạm vào thành bình mạnh hơn và nhiều lần hơn nên áp suất tăng.",
+        "c": "Khối lượng của mỗi phân tử khí tăng lên khi nhiệt độ tăng nên va chạm mạnh hơn.",
+        "d": "Khoảng cách giữa các phân tử khí lý tưởng rất lớn so với kích thước của mỗi phân tử nên có thể bỏ qua thể tích riêng của chúng."
+      }
+    },
+    {
+      "id": "Q_SH_01",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "short",
+      "content": "Trong thang nhiệt độ Celsius, nhiệt độ của nước đá tinh khiết đang tan ở áp suất tiêu chuẩn 1 atm là bao nhiêu °C?"
+    },
+    {
+      "id": "Q_SH_02",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "short",
+      "content": "Nhiệt độ vào một ngày mùa hè ở Luân Đôn là 77 °F. Nhiệt độ đó tương ứng với bao nhiêu °C?"
+    },
+    {
+      "id": "Q_SH_03",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "short",
+      "content": "Nước ở trạng thái lỏng có nhiệt độ là 300 K theo thang Kelvin. Hãy tính nhiệt độ của nước này theo thang Celsius (lấy T = t + 273)."
+    },
+    {
+      "id": "Q_SH_04",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "short",
+      "content": "Năm 1911, người ta phát hiện hiện tượng chuyển pha siêu dẫn đối với thủy ngân với nhiệt độ chuyển pha T_C = 4,1 K. Đổi nhiệt độ trên sang thang Celsius (lấy T = t + 273, làm tròn đến hàng đơn vị)."
+    },
+    {
+      "id": "Q_SH_05",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thang nhiệt độ",
+      "tags": [
+        "#ThangNhietDo"
+      ],
+      "type": "short",
+      "content": "Một vật được làm lạnh từ 50°C xuống 0°C. Theo thang nhiệt độ Kelvin, nhiệt độ của vật này đã giảm đi bao nhiêu K?"
+    },
+    {
+      "id": "Q_SH_06",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nội năng & ĐL I NĐLH",
+      "tags": [
+        "#NoiNang_DL1"
+      ],
+      "type": "short",
+      "content": "Người ta truyền cho khí trong xilanh một nhiệt lượng 100 J. Khí nở ra thực hiện công 70 J đẩy pit-tông đi lên. Độ biến thiên nội năng của chất khí bằng bao nhiêu Jun (J)?"
+    },
+    {
+      "id": "Q_SH_07",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nội năng & ĐL I NĐLH",
+      "tags": [
+        "#NoiNang_DL1"
+      ],
+      "type": "short",
+      "content": "Người ta cung cấp nhiệt lượng 1,5 J cho chất khí đựng trong xilanh đặt nằm ngang. Chất khí nở ra đẩy pit-tông đi một đoạn 5 cm. Biết lực ma sát giữa pit-tông và xilanh có độ lớn 20 N. Tính độ biến thiên nội năng của chất khí theo đơn vị Jun (J)."
+    },
+    {
+      "id": "Q_SH_08",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nội năng & ĐL I NĐLH",
+      "tags": [
+        "#NoiNang_DL1"
+      ],
+      "type": "short",
+      "content": "Viên đạn chì có khối lượng 50 g, bay với tốc độ v₀ = 360 km/h (100 m/s). Sau khi xuyên qua một tấm thép, tốc độ giảm xuống còn 72 km/h (20 m/s). Tính độ tăng nội năng của hệ đạn và thép theo đơn vị Jun (J)."
+    },
+    {
+      "id": "Q_SH_09",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nội năng & ĐL I NĐLH",
+      "tags": [
+        "#NoiNang_DL1"
+      ],
+      "type": "short",
+      "content": "Một khối khí có áp suất p = 100 N/m², thể tích V₁ = 4 m³, nhiệt độ t₁ = 27°C được nung nóng đẳng áp đến nhiệt độ t₂ = 87°C. Công do khí thực hiện được trong quá trình trên bằng bao nhiêu Jun (J)?"
+    },
+    {
+      "id": "Q_SH_10",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nhiệt lượng & Sự chuyển thể",
+      "tags": [
+        "#SuChuyenThe",
+        "#NhietLuong"
+      ],
+      "type": "short",
+      "content": "Tính nhiệt lượng Q (theo đơn vị kJ) cần cung cấp để làm nóng chảy hoàn toàn 100 g nước đá ở 0°C. Biết nhiệt nóng chảy riêng của nước đá là 3,4.10⁵ J/kg."
+    },
+    {
+      "id": "Q_SH_11",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Nhiệt lượng & Sự chuyển thể",
+      "tags": [
+        "#NhietLuong"
+      ],
+      "type": "short",
+      "content": "Có 20 kg nước ở 20°C, phải pha vào thêm bao nhiêu kg nước ở 100°C để thu được nước ở nhiệt độ cân bằng là 50°C? (Bỏ qua sự trao đổi nhiệt với môi trường)."
+    },
+    {
+      "id": "Q_SH_12",
+      "subject": "Vật Lý 12",
+      "chapter": "Chương 1: Thuyết động học phân tử",
+      "tags": [
+        "#ThuyetDongHocPhanTu"
+      ],
+      "type": "short",
+      "content": "Một phân tử khí lý tưởng đang chuyển động qua tâm một bình cầu có đường kính d = 0,10 m. Trong mỗi giây, phân tử này va chạm vào thành bình cầu 4000 lần. Coi tốc độ của phân tử không đổi sau mỗi va chạm. Tốc độ chuyển động trung bình của phân tử khí là bao nhiêu m/s?"
+    }
+  ],
+  "answers": {
+    "Q_MCQ_01": {
+      "questionId": "Q_MCQ_01",
+      "correctAnswer": "C",
+      "explanation": "Áp dụng công thức: t(°F) = 1,8.t(°C) + 32 = 1,8 × 39 + 32 = 102,2 °F."
+    },
+    "Q_MCQ_02": {
+      "questionId": "Q_MCQ_02",
+      "correctAnswer": "C",
+      "explanation": "Áp dụng công thức: t(°C) = (203 - 32) / 1,8 = 171 / 1,8 = 95 °C."
+    },
+    "Q_MCQ_03": {
+      "questionId": "Q_MCQ_03",
+      "correctAnswer": "B",
+      "explanation": "Không được dùng tay nắm chặt bầu nhiệt kế vì nhiệt từ tay sẽ truyền vào bầu thủy ngân làm sai lệch kết quả đo."
+    },
+    "Q_MCQ_04": {
+      "questionId": "Q_MCQ_04",
+      "correctAnswer": "C",
+      "explanation": "Khi nhúng vào nước nóng, cả vỏ thủy tinh và rượu đều nở vì nhiệt, nhưng chất lỏng (rượu) nở vì nhiệt nhiều hơn chất rắn (thủy tinh) nên cột rượu dâng lên."
+    },
+    "Q_MCQ_05": {
+      "questionId": "Q_MCQ_05",
+      "correctAnswer": "B",
+      "explanation": "Nhiệt độ điểm ba của nước tinh khiết trong thang Kelvin được định nghĩa chuẩn là 273,16 K (ứng với 0,01°C)."
+    },
+    "Q_MCQ_06": {
+      "questionId": "Q_MCQ_06",
+      "correctAnswer": "C",
+      "explanation": "Độ tăng nhiệt độ: ΔT = Δt = 7,2 - (-20) = 27,2 K. Thời gian Δτ = 2 phút = 120 giây. Tốc độ tăng: 27,2 / 120 ≈ 0,227 Kelvin/giây."
+    },
+    "Q_MCQ_07": {
+      "questionId": "Q_MCQ_07",
+      "correctAnswer": "B",
+      "explanation": "Số phân tử nước: N = (m / M) . N_A = (2 / 18) × 6,02.10²³ ≈ 6,68.10²² phân tử."
+    },
+    "Q_MCQ_08": {
+      "questionId": "Q_MCQ_08",
+      "correctAnswer": "A",
+      "explanation": "Thể tích bình V_bình = 22,4.10⁻³ m³. Thể tích 1 phân tử V₀ = (4/3)πr³. Tổng thể tích các phân tử V_pt = N.V₀ = 6,02.10²³ × (4/3)π.(10⁻¹⁰)³ ≈ 2,52.10⁻⁶ m³. Tỉ số V_bình / V_pt ≈ 8,9.10³ lần."
+    },
+    "Q_MCQ_09": {
+      "questionId": "Q_MCQ_09",
+      "correctAnswer": "B",
+      "explanation": "Mọi vật luôn có nội năng vì các phân tử luôn chuyển động, nhưng nhiệt lượng chỉ là phần nội năng trao đổi trong quá trình truyền nhiệt (vật không 'chứa' nhiệt lượng)."
+    },
+    "Q_MCQ_10": {
+      "questionId": "Q_MCQ_10",
+      "correctAnswer": "A",
+      "explanation": "Khí bị nén (nhận công): A = +100 J. Khí truyền nhiệt ra môi trường: Q = -20 J. Độ biến thiên nội năng: ΔU = Q + A = -20 + 100 = +80 J (Nội năng tăng 80 J)."
+    },
+    "Q_MCQ_11": {
+      "questionId": "Q_MCQ_11",
+      "correctAnswer": "A",
+      "explanation": "Khí nhận nhiệt Q = +1,5 J. Khí nở ra thực hiện công thắng ma sát: A_khí = F_ms . s = 20 × 0,05 = 1 J ⇒ A = -1 J. Do đó ΔU = Q + A = 1,5 - 1 = 0,5 J."
+    },
+    "Q_MCQ_12": {
+      "questionId": "Q_MCQ_12",
+      "correctAnswer": "A",
+      "explanation": "Khí nhận nhiệt Q = 6.10⁶ J. Khí nở thực hiện công: A_khí = p.ΔV = 8.10⁶ × 0,5 = 4.10⁶ J ⇒ A = -4.10⁶ J. Vậy ΔU = Q + A = 6.10⁶ - 4.10⁶ = 2.10⁶ J."
+    },
+    "Q_MCQ_13": {
+      "questionId": "Q_MCQ_13",
+      "correctAnswer": "D",
+      "explanation": "Hệ thức ΔU = Q (tức A = 0) ứng với quá trình đẳng tích (V = const). Trong hệ tọa độ (p, T), đường đẳng tích là đường thẳng kéo dài đi qua gốc tọa độ O, tức là quá trình 4 → 1."
+    },
+    "Q_MCQ_14": {
+      "questionId": "Q_MCQ_14",
+      "correctAnswer": "A",
+      "explanation": "Độ biến thiên nội năng bằng phần cơ năng đã mất đi: ΔU = m.g.(h₁ - h₂) = 0,2 × 10 × (15 - 10) = 10 J."
+    },
+    "Q_MCQ_15": {
+      "questionId": "Q_MCQ_15",
+      "correctAnswer": "D",
+      "explanation": "Nhiệt lượng nhận từ nguồn nóng: Q₁ = A + Q₂ = 2.10³ + 6.10³ = 8.10³ J. Hiệu suất: H = A / Q₁ = 2 / 8 = 0,25 = 25%."
+    },
+    "Q_MCQ_16": {
+      "questionId": "Q_MCQ_16",
+      "correctAnswer": "B",
+      "explanation": "Công cơ học thực hiện: A = H . Q₁ = 0,40 × 800 = 320 J."
+    },
+    "Q_MCQ_17": {
+      "questionId": "Q_MCQ_17",
+      "correctAnswer": "B",
+      "explanation": "T₂ = 30 + 273 = 303 K. Ta có H_max = 1 - T₂/T₁ = 0,8 ⇒ T₂/T₁ = 0,2 ⇒ T₁ = 303 / 0,2 = 1515 K. Đổi sang °C: t₁ = 1515 - 273 = 1242 °C."
+    },
+    "Q_MCQ_18": {
+      "questionId": "Q_MCQ_18",
+      "correctAnswer": "B",
+      "explanation": "Q = m.c.(100 - 25) + m.L = 10 × 4180 × 75 + 10 × 2,3.10⁶ = 3135000 + 23000000 = 26135000 J = 26135 kJ."
+    },
+    "Q_MCQ_19": {
+      "questionId": "Q_MCQ_19",
+      "correctAnswer": "C",
+      "explanation": "Q = (m_Al.c_Al + m_nước.c_nước).(80 - t₁) ⇒ 740000 = (0,4×880 + 3×4190).(80 - t₁) = 12922.(80 - t₁) ⇒ 80 - t₁ ≈ 57,27 ⇒ t₁ ≈ 22,7 °C."
+    },
+    "Q_MCQ_20": {
+      "questionId": "Q_MCQ_20",
+      "correctAnswer": "D",
+      "explanation": "Đồng đang nóng chảy ở 1083°C. Kẽm có nhiệt độ nóng chảy 420°C < 1083°C nên kẽm sẽ nóng chảy; còn thép có nhiệt độ nóng chảy 1300°C > 1083°C nên thép không bị nóng chảy."
+    },
+    "Q_TF_01": {
+      "questionId": "Q_TF_01",
+      "correctAnswer": {
+        "a": false,
+        "b": true,
+        "c": false,
+        "d": true
+      },
+      "explanation": "a) Sai (thủy ngân sôi ở 357°C); b) Đúng; c) Sai (nhúng vào nước sôi 100°C sẽ làm vỡ nhiệt kế y tế vì giới hạn đo chỉ đến 42°C); d) Đúng."
+    },
+    "Q_TF_02": {
+      "questionId": "Q_TF_02",
+      "correctAnswer": {
+        "a": true,
+        "b": true,
+        "c": true,
+        "d": false
+      },
+      "explanation": "a) Đúng (bàn là nóng khoảng 100-250°C nằm trong 0-400°C); b) Đúng; c) Đúng (100°C < 110°C); d) Sai (nhiệt kế rượu chỉ đo tới 60°C, đo nước sôi 100°C sẽ nổ vỡ)."
+    },
+    "Q_TF_03": {
+      "questionId": "Q_TF_03",
+      "correctAnswer": {
+        "a": true,
+        "b": true,
+        "c": true,
+        "d": false
+      },
+      "explanation": "Độ biến thiên nội năng của hệ bằng độ giảm cơ năng: ΔU = m.g.(h₁ - h₂) = 0,1 × 9,8 × (10 - 7) = 2,94 J. Do đó a, b, c Đúng; d Sai."
+    },
+    "Q_TF_04": {
+      "questionId": "Q_TF_04",
+      "correctAnswer": {
+        "a": true,
+        "b": true,
+        "c": true,
+        "d": true
+      },
+      "explanation": "a) Đúng (1 Pa = 1 N/m²); b) Đúng vì A_khí = p.ΔV = 3.10⁵ × 7.10⁻³ = 2100 J; c) Đúng vì ΔU = Q + A ⇒ -1100 = Q - 2100 ⇒ Q = 1000 J; d) Đúng vì 1100 = Q - 2100 ⇒ Q = 3200 J."
+    },
+    "Q_TF_05": {
+      "questionId": "Q_TF_05",
+      "correctAnswer": {
+        "a": true,
+        "b": true,
+        "c": false,
+        "d": true
+      },
+      "explanation": "a) Q₁ = λm = 3,34.10⁵ × 0,02 = 6680 J (Đúng). b) Q₂ = mcΔt = 0,02 × 4200 × 100 = 8400 J (Đúng). c) Q₃ = Lm = 2,26.10⁶ × 0,02 = 45200 J ≠ 42500 J (Sai). d) Q_tổng = 6680 + 8400 + 45200 = 60280 J (Đúng)."
+    },
+    "Q_TF_06": {
+      "questionId": "Q_TF_06",
+      "correctAnswer": {
+        "a": false,
+        "b": true,
+        "c": false,
+        "d": true
+      },
+      "explanation": "Bình kín nên số lượng phân tử và khối lượng phân tử không đổi (a, c Sai). Khi nhiệt độ tăng, tốc độ chuyển động nhiệt tăng nên va chạm mạnh và nhiều hơn (b Đúng); d Đúng."
+    },
+    "Q_SH_01": {
+      "questionId": "Q_SH_01",
+      "correctAnswer": "0",
+      "explanation": "Nước đá tinh khiết đang tan ở áp suất 1 atm có nhiệt độ là 0°C."
+    },
+    "Q_SH_02": {
+      "questionId": "Q_SH_02",
+      "correctAnswer": "25",
+      "explanation": "Ta có t(°C) = (77 - 32) / 1,8 = 45 / 1,8 = 25 °C."
+    },
+    "Q_SH_03": {
+      "questionId": "Q_SH_03",
+      "correctAnswer": "27",
+      "explanation": "Áp dụng t(°C) = T(K) - 273 = 300 - 273 = 27 °C."
+    },
+    "Q_SH_04": {
+      "questionId": "Q_SH_04",
+      "correctAnswer": "-269",
+      "explanation": "Ta có t(°C) = 4,1 - 273 = -268,9 °C, làm tròn đến hàng đơn vị là -269 °C."
+    },
+    "Q_SH_05": {
+      "questionId": "Q_SH_05",
+      "correctAnswer": "50",
+      "explanation": "Độ giảm nhiệt độ trong thang Kelvin bằng độ giảm nhiệt độ trong thang Celsius: ΔT = Δt = 50 - 0 = 50 K."
+    },
+    "Q_SH_06": {
+      "questionId": "Q_SH_06",
+      "correctAnswer": "30",
+      "explanation": "Khí nhận nhiệt Q = +100 J; khí nở thực hiện công A = -70 J. Vậy ΔU = Q + A = 100 - 70 = 30 J."
+    },
+    "Q_SH_07": {
+      "questionId": "Q_SH_07",
+      "correctAnswer": "0,5",
+      "explanation": "Công khí thực hiện để thắng ma sát: A_khí = F_ms . s = 20 × 0,05 = 1 J ⇒ A = -1 J. Độ biến thiên nội năng: ΔU = Q + A = 1,5 - 1 = 0,5 J."
+    },
+    "Q_SH_08": {
+      "questionId": "Q_SH_08",
+      "correctAnswer": "240",
+      "explanation": "Độ tăng nội năng bằng độ giảm động năng của viên đạn: ΔU = ½.m.(v₀² - v²) = 0,5 × 0,05 × (100² - 20²) = 0,025 × 9600 = 240 J."
+    },
+    "Q_SH_09": {
+      "questionId": "Q_SH_09",
+      "correctAnswer": "80",
+      "explanation": "T₁ = 27 + 273 = 300 K; T₂ = 87 + 273 = 360 K. Đẳng áp: V₂ = V₁.(T₂/T₁) = 4 × (360/300) = 4,8 m³. Công khí thực hiện: A' = p.(V₂ - V₁) = 100 × (4,8 - 4) = 80 J."
+    },
+    "Q_SH_10": {
+      "questionId": "Q_SH_10",
+      "correctAnswer": "34",
+      "explanation": "Q = λ . m = 3,4.10⁵ × 0,1 = 34000 J = 34 kJ."
+    },
+    "Q_SH_11": {
+      "questionId": "Q_SH_11",
+      "correctAnswer": "12",
+      "explanation": "Phương trình cân bằng nhiệt: m₂.c.(100 - 50) = m₁.c.(50 - 20) ⇒ 50.m₂ = 20 × 30 = 600 ⇒ m₂ = 12 kg."
+    },
+    "Q_SH_12": {
+      "questionId": "Q_SH_12",
+      "correctAnswer": "400",
+      "explanation": "Giữa hai lần va chạm liên tiếp, phân tử đi được quãng đường bằng đường kính d = 0,10 m. Trong 1 giây va chạm 4000 lần nên v = 4000 × 0,10 = 400 m/s."
+    }
+  }
+}
